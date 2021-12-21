@@ -27,7 +27,7 @@
             </svg>
             
         </div>
-        <div class="companyName">Высотная бригада</div>
+        <div class="companyName"><img class="companyLogo2" src="img/logo.jpg" alt="логотип"></div>
       </div>
       <div class="headerStroke"></div>
       <div class="headerRightCol">
@@ -43,7 +43,9 @@
     <section class="jumbo">
       <h1 class="jumboHeader">Уборка снега с крыш</h1>
       <p class="jumboText">Уборка снега с крыш на различных зданиях Санкт-Петербурга и Ленинградской области уже более 10 лет проводится нашей командой.</p>
-      <button class="CTA jumboButton">Звонок</button>
+      <a href="tel:+79944198180">
+        <button class="CTA jumboButton">Звонок</button>
+      </a>
       <picture class="jumboImage">
         <source media="(max-width: 800px)" srcset="img/jumbo-mobile.png">
         <img src="img/jumbo.png" alt="Альпинист чистит снег с крыши небоскреба">
@@ -51,14 +53,23 @@
     </section>
 
     <section class="prices">
-      <h2 class="pricesHeading">Стоимость</h2>
-      <p>Цены на уборку кровли от снега, наледи зависят от нескольких факторов:</p>
-      <ul class="pricesList">
-        <li>Объемов и характеристик снежной/ледяной массы</li>
-        <li>Площади поверхности, которую нужно очистить</li>
-        <li>Характера работ (только уборка сугробов, полная очистка кровельного покрытия, уборка сосулек по краям кровли)</li>
-      </ul>
-      <p>Цены уточняйте по телефону.</p>
+      <div class="pricesGrid">
+        <div class="pricesGrid--left">
+          <h2 class="pricesHeading">Стоимость</h2>
+          <p>Цены на уборку кровли от снега, наледи зависят от нескольких факторов:</p>
+          <ul class="pricesList">
+            <li>Объемов и характеристик снежной/ледяной массы</li>
+            <li>Площади поверхности, которую нужно очистить</li>
+            <li>Характера работ (только уборка сугробов, полная очистка кровельного покрытия, уборка сосулек по краям кровли)</li>
+          </ul>
+          <p>Цены уточняйте по телефону.</p>
+
+        </div>
+        <div class="pricesGrid--right">
+          <img src="img/alp.jpg" alt="Альпинист на крыше" class="pricesImage"/>
+
+        </div>
+      </div>
     </section>
 
     <section class="services">
@@ -93,7 +104,9 @@
 
     <footer class="footer">
       <div class="footerLeftCol">
-        <button class="CTA">Звонок</button>
+        <a href="tel:+79944198180">
+          <button class="CTA">Звонок</button>
+        </a>
       </div>
       <div class="footerRightCol">
         <span class="phone"> 

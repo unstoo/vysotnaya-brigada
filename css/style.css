@@ -62,7 +62,9 @@ h3 {
   /* identical to box height */
   text-align: center;
   /* font-light */
-  color: #F7F7F7; }
+  color: #F7F7F7;
+  cursor: pointer;
+}
 
 .visually-hidden {
   position: absolute;
@@ -83,8 +85,8 @@ h3 {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  height: 180px;
-  padding-top: 50px;
+  height: 220px;
+  padding-top: 20px;
   padding-left: 95px;
   padding-right: 95px;
   background-color: #02160B;
@@ -97,11 +99,16 @@ h3 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center; }
+          
 
 .companyLogo {
   width: 82px;
   height: 82px;
   margin-right: 5px; }
+  .companyLogo2 {
+    width: 130px;
+    height: 172px;
+    margin-right: 5px; }
 
 .companyName {
   font-family: Roboto, sans-serif;
@@ -122,7 +129,9 @@ h3 {
           flex-direction: column;
   -webkit-box-align: end;
       -ms-flex-align: end;
-          align-items: flex-end; }
+          align-items: flex-end; 
+        margin: auto 0;
+      }
 
 .phone {
   margin-bottom: 10px; }
@@ -133,6 +142,24 @@ h3 {
 
 .time {
   font-size: 20px; }
+
+  .pricesGrid {
+    display: flex;
+    padding-top: 125px;
+  }
+
+  .pricesGrid--left {
+    margin-right: 2vw;
+  }
+
+  .pricesGrid--right {
+    margin-right: 5vw;
+
+  }
+
+  .pricesImage {
+    width: 100%;
+  }
 
 @media only screen and (max-width: 800px) {
   .header {
@@ -149,7 +176,7 @@ h3 {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-    height: 225px;
+    height: 255px;
     padding-top: 25px;
     padding-left: 15px;
     padding-right: 15px; }
@@ -220,6 +247,14 @@ h3 {
   position: relative;
   z-index: 10; }
 
+  @media only screen and (max-width: 960px) {  
+  .pricesGrid {
+    flex-direction: column;
+    padding-top: 58px;
+    margin-bottom: 55px;
+  }
+}
+
 @media only screen and (max-width: 800px) {
   .jumbo {
     display: -webkit-box;
@@ -257,12 +292,13 @@ h3 {
 
 .prices {
   background-color: #F0EEE7;
-  padding-left: 95px;
+  padding-left: 5vw;
+  padding-right: 5vw;
   line-height: 27px;
   padding-bottom: 97px; }
 
+
 .pricesHeading {
-  padding-top: 125px;
   margin-bottom: 55px;
   font-family: Open Sans;
   font-style: normal;
@@ -276,9 +312,12 @@ h3 {
     padding-right: 15px;
     line-height: 27px;
     padding-bottom: 87px; }
+    .pricesGrid {
+      padding-top: 58px;
+      margin-bottom: 55px;
+    }
   .pricesHeading {
-    padding-top: 58px;
-    margin-bottom: 55px;
+    
     font-family: Open Sans;
     font-style: normal;
     font-weight: bold;
@@ -288,8 +327,8 @@ h3 {
             padding-inline-start: 20px; } }
 
 .services {
-  padding-left: 95px;
-  padding-right: 95px;
+  padding-left: 5vw;
+  padding-right: 5vw;
   background-color: #FFF; }
 
 .servicesHeading {
@@ -412,3 +451,5 @@ h3 {
             align-items: center; }
   .footerLeftCol {
     margin-bottom: 20px; } }
+
+    
