@@ -31,7 +31,7 @@ body {
   color: #242424;
   font-family: "Open Sans", sans-serif; }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 890px) {
   body {
     margin: 0 auto;
     width: 360px;
@@ -106,8 +106,8 @@ h3 {
   height: 82px;
   margin-right: 5px; }
   .companyLogo2 {
-    width: 130px;
-    height: 172px;
+    width: 112px;
+    height: 118px;
     margin-right: 5px; }
 
 .companyName {
@@ -161,7 +161,7 @@ h3 {
     width: 100%;
   }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 890px) {
   .header {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -218,24 +218,28 @@ h3 {
   width: 360px;
   position: relative;
   z-index: 10;
-  margin-bottom: 45px;
-  padding-top: 70px;
+  margin-bottom: 35px;
+  padding: 8px;
+  padding-top: 60px;
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 48px;
   color: #CD6326;
-  background-color: rgba(2, 22, 11, 0.5);
+  background-color: rgba(2, 22, 11, 0.8);
   line-height: 50px;
-  letter-spacing: 2px; }
+  letter-spacing: 2px; 
+}
 
 .jumboText {
   width: 360px;
   position: relative;
   z-index: 10;
-  font-size: 18px;
+  font-size: 22px;
   line-height: 27px;
-  margin-bottom: 75px;
-  background-color: rgba(2, 22, 11, 0.5); }
+  margin-bottom: 60px;
+  
+  padding: 15px;
+  background-color: rgba(2, 22, 11, 0.8); }
 
 .jumboImage {
   width: 834px;
@@ -248,7 +252,7 @@ h3 {
   position: relative;
   z-index: 10; }
 
-  @media only screen and (max-width: 960px) {  
+  @media only screen and (max-width: 89 0px) {  
   .pricesGrid {
     flex-direction: column;
     padding-top: 58px;
@@ -256,7 +260,7 @@ h3 {
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 890px) {
   .jumbo {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -278,11 +282,8 @@ h3 {
     width: 360px;
     margin-top: 24px;
     margin-bottom: 115px;
-    padding-left: 15px;
-    padding-right: 15px;
-    padding-bottom: 15px;
     font-size: 18px;
-    background-color: rgba(0, 0, 0, 0.5); }
+    background-color: rgba(0, 0, 0, 0.8); }
   .jumboImage {
     width: 360px;
     position: absolute;
@@ -306,7 +307,7 @@ h3 {
   font-weight: bold;
   font-size: 36px; }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 890px) {
   .prices {
     background-color: #F0EEE7;
     padding-left: 15px;
@@ -369,7 +370,7 @@ h3 {
   display: block;
   text-align: center; }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 890px) {
   .services {
     padding-left: 15px;
     padding-right: 15px; }
@@ -432,7 +433,7 @@ h3 {
       -ms-flex-align: end;
           align-items: flex-end; }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 890px) {
   .footer {
     height: 360px;
     padding-left: 15px;
