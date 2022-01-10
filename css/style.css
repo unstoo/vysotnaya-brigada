@@ -252,7 +252,7 @@ h3 {
   position: relative;
   z-index: 10; }
 
-  @media only screen and (max-width: 89 0px) {  
+  @media only screen and (max-width: 890px) {  
   .pricesGrid {
     flex-direction: column;
     padding-top: 58px;
